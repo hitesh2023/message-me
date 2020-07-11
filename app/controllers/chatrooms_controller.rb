@@ -4,6 +4,6 @@ class ChatroomsController < ApplicationController
 
 	def index
     @message = Message.new
-    @messages = Message.all.order('created_at ASC')
+    @messages = Message.custom_display
 	end
 end

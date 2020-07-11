@@ -1,9 +1,15 @@
 @import "semantic-ui";
 
 .chatbox {
-	height: 450px
+	height: 450px;
 }
 
 em {
-	color: orange
+	color: orange;
+}
+
+#messages {
+	height: 15em;
+	overflow: auto;
+
 }
